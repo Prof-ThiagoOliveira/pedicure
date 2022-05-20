@@ -1,0 +1,17 @@
+Package: pedicure
+Title: pedigree tools
+Version: 2.0.1
+Date: 2019-07-24
+Authors@R: person("David", "Butler", role = c("aut", "cre"),
+                     email = "dbutler@uow.edu.au")
+Author: David Butler [aut, cre]
+Copyright: The University of Wollongong
+Maintainer: David Butler <dbutler@uow.edu.au>
+Description: pedigree tools.
+Depends: R (>= 3.5.0), pedigree
+Suggests: asreml, Matrix
+Imports: methods
+License: CC BY-ND 4.0
+RoxygenNote: 7.1.0
+NeedsCompilation: no
+Packaged: 2021-05-07 11:44:36 UTC; butlerd

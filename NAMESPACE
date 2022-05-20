@@ -1,0 +1,15 @@
+##[imports]
+import(
+       pedigree
+)
+importFrom("methods", "as", "new")
+importFrom("utils", "type.convert", combn, read.table)
+##[exports]
+#export(checkPedigree, ainv, AIsweep, amat, count_gen, equiv.mm, hdist, ldu,
+#       mmat, mmat.ev, mmat.svd, nrm, offspring, A.dot, ped.dot, trim, trim.par,
+#       recode.mm, sparse2mat, mat2sparse, ld, mask)
+export(checkPedigree, AIsweep, amat, count_gen, equiv.mm, hdist, ldu,
+       mmat, mmat.ev, mmat.svd, nrm, offspring, A.dot, ped.dot, trim, trim.par,
+       recode.mm, sparse2mat, mat2sparse, ld, mask)
+##[Dynamic libraries]
+useDynLib("pedicure")
